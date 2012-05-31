@@ -23,4 +23,4 @@ How it works:
 * Add photos or videos to blog post
 
 
-Yep. It’s that simple.
+Yep. It's that simple.
