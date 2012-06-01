@@ -1,4 +1,4 @@
-=== Rawporter Photos and Videos ===
+=== Photos and Videos ===
 Contributors: Rawporter
 Tags: Photos, Pictures, Video, Videos, Images
 Requires at least: 3.0.4
