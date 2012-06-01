@@ -4,7 +4,7 @@
  * @version 1.0
  */
 /*
-Plugin Name: Rawporter Photos and Videos
+Plugin Name: Photos and Videos
 Plugin URI: http://wordpress.org/extend/plugins/rawporter/
 Description: For rawporter.com page popup on blog.
 Author: Rawporter
