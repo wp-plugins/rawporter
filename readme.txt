@@ -1,5 +1,5 @@
 === Rawporter Photos and Videos ===
-Contributors: GriffeY
+Contributors: Rawporter
 Tags: Photos, Pictures, Video, Videos, Images
 Requires at least: 3.0.4
 Tested up to: 3.3.2

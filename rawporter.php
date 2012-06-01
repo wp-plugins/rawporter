@@ -4,10 +4,10 @@
  * @version 1.0
  */
 /*
-Plugin Name: Rawporter Request Media
+Plugin Name: Rawporter Photos and Videos
 Plugin URI: http://wordpress.org/extend/plugins/rawporter/
 Description: For rawporter.com page popup on blog.
-Author: GriffeY
+Author: Rawporter
 Version: 1.0
 Author URI: http://rawporter.com/
 */
@@ -19,12 +19,13 @@ function rawporter_box() {
 	<link rel="stylesheet" href="<?php echo plugins_url('/fancybox/jquery.fancybox.css',__FILE__ ); ?>" type="text/css" media="screen" /> 	      
 	<div id="butDiv">
 		<a id="lnkButDiv" href="<?php echo "http://rawporter.com/wpassign";?>" class="fancybox fancybox.iframe">
-			<input type="button"  class="button-primary" value="Request Media" />
+			<input type="button"  class="button-primary" value="Request Photos / Videos" />
 		</a>	
 	</div>
 	<script type="text/javascript">
-        $(document).ready(function() {
-            $('.fancybox').fancybox({
+        $rawfunc = jQuery.noConflict();
+		$rawfunc(document).ready(function() {
+            $rawfunc('.fancybox').fancybox({
                 padding : 0,
                 openEffect  : 'none',				
 				openSpeed  : 'fast'
@@ -34,7 +35,7 @@ function rawporter_box() {
 <?php
 }
 function rawporter_exec() {	
-	add_meta_box( 'rawporter_boxid', __('Request Media', 'wpsc'), 'rawporter_box', $pagename, 'side', 'low' );
+	add_meta_box( 'rawporter_boxid', __('Photos / Videos', 'wpsc'), 'rawporter_box', $pagename, 'side', 'low' );
 }
 // This just echoes the chosen line, we'll position it later
 function rawporter() {
